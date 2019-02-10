@@ -164,16 +164,11 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
-    Jelly \
     LockClock \
     TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
     WeatherProvider
-
-# Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
 
 # Berry styles
 PRODUCT_PACKAGES += \
