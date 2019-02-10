@@ -207,6 +207,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Google Assistant
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.opa.eligible_device=true
+
 # Custom off-mode charger
 ifeq ($(WITH_LINEAGE_CHARGER),true)
 PRODUCT_PACKAGES += \
