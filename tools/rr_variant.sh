@@ -24,7 +24,7 @@
 
 echo -e ${ylw}"\n\n ▼ Which build-type do you want to choose?\n"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 1- Unofficial "${txtrst}${red}"  ︱ For the unofficial builds"${txtrst}
+echo -e ${blu}" 〉 1- Lite "${txtrst}${red}"  ︱ For the unofficial builds"${txtrst}
 echo -e "";
 echo -e ${blu}" 〉 2- Nightly "${txtrst}${red}"     ︱ Only for the official daily builds by the maintainers"${txtrst}
 echo -e "";
@@ -49,7 +49,7 @@ if [ "$askvariant" == "1" ]
 then
 echo -e "";
 echo -e ${blu}" ▪ Building unofficial variant "${txtrst}
-export RR_BUILDTYPE=Unofficial
+export RR_BUILDTYPE=Lite
 echo -e "";
 echo -e "";
 $normal
